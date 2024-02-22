@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+ background-color: #893168;
+}
+.main{
+  width: 350px;
+  height: auto;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #0026ffdc;
+  padding: 15px;
+}
+h2{
+ margin-bottom: 9px;
+}
+textarea{
+  width: 90%;
+  border: 1px solid gray;
+  max-height:250px;
+}
+
+textarea::-webkit-scrollbar{
+  width: 0px;
+}
